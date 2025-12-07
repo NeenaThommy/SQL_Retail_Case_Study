@@ -1,1 +1,11 @@
-
+product_id,product_name,category,price
+101,Laptop,Electronics,55000
+102,Smartphone,Electronics,30000
+103,Headphones,Electronics,2000
+104,T-Shirt,Fashion,800
+105,Shoes,Fashion,2500
+106,Washing Machine,Home Appliances,18000
+107,Refrigerator,Home Appliances,26000
+108,Coffee Maker,Home Appliances,3500
+109,Notebook,Stationery,50
+110,Pen,Stationery,20
