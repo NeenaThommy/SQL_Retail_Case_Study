@@ -43,3 +43,13 @@ Subqueries
 Date Functions
 
 Analytics Queries
+
+--------------------
+1) Basic queries
+
+2) Intermediate queries
+
+3) Advanced analytics queries (Window functions)
+
+
+
