@@ -1,11 +1,12 @@
-product_id,product_name,category,price
-101,Laptop,Electronics,55000
-102,Smartphone,Electronics,30000
-103,Headphones,Electronics,2000
-104,T-Shirt,Fashion,800
-105,Shoes,Fashion,2500
-106,Washing Machine,Home Appliances,18000
-107,Refrigerator,Home Appliances,26000
-108,Coffee Maker,Home Appliances,3500
-109,Notebook,Stationery,50
-110,Pen,Stationery,20
+order_item_id,order_id,product_id,quantity,price
+1,1001,101,1,55000
+2,1001,103,1,2000
+3,1002,102,1,30000
+4,1003,104,2,800
+5,1003,103,1,2000
+6,1004,107,1,26000
+7,1006,108,1,3500
+8,1007,101,1,55000
+9,1008,109,5,50
+10,1009,105,1,2500
+11,1010,102,1,30000
