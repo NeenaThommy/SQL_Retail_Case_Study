@@ -45,11 +45,11 @@ Date Functions
 Analytics Queries
 
 --------------------
-1) Basic queries
+1) Basic queries - > queries(folder) - > basic_queries.sql
 
-2) Intermediate queries
+2) Intermediate queries - >  queries(folder) - > intermediate_queries.sql
 
-3) Advanced analytics queries (Window functions)
+3) Advanced analytics queries (Window functions)  queries(folder) - > advanced_queries.sql
 
 
 
