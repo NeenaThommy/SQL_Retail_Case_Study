@@ -32,7 +32,7 @@ LEFT JOIN orders o ON c.customer_id = o.customer_id
 GROUP BY c.customer_id, c.customer_name
 ORDER BY number_of_orders DESC;
 
-✅ 1. List all orders with status = 'Cancelled'.
+--✅ 1. List all orders with status = 'Cancelled'.
 
 SELECT 
     order_id,
@@ -43,7 +43,7 @@ SELECT
 FROM orders
 WHERE status = 'Cancelled';
 
-2. Find the top 5 customers by total spending
+--2. Find the top 5 customers by total spending
 SELECT 
     c.customer_id,
     c.first_name,
@@ -54,7 +54,7 @@ GROUP BY c.customer_id, c.first_name
 ORDER BY total_spent DESC
 LIMIT 5;
 
-✅ 3. Retrieve customer names along with the number of orders they placed.
+--✅ 3. Retrieve customer names along with the number of orders they placed.
 
 select 
 customer_id,
@@ -64,7 +64,7 @@ from customers c left join orders o
 on (c.customer_id = o.customer_id)
 group by customer_id,first_name
 
-4. List products that were never sold
+--4. List products that were never sold
 SELECT 
     p.product_id,
     p.product_name
@@ -88,7 +88,7 @@ FROM (
 ) t
 WHERE rn = 1;
 
-6. Show orders where total_amount > 1000.
+--6. Show orders where total_amount > 1000.
 SELECT 
     order_id,
     customer_id,
